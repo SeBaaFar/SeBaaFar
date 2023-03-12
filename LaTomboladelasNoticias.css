@@ -1,0 +1,60 @@
+.titulo {
+    padding: 0.5em 0;
+    background-color: cornflowerblue;
+}
+.titulo h1 {
+    text-align: center;
+    font-size: 4em;
+    font-family: 'Rubik Iso', cursive;
+    color: black;
+}
+
+.tienda {
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: royalblue;
+    justify-content: space-around;
+}
+
+.tienda a:visited, .tienda a:link, .tienda a:active {
+    text-decoration: none;
+    color: #000;
+}
+.tienda a:hover {
+box-shadow: 5px 5px 10px;
+}
+
+.Tarjeta {
+    width: 12em;
+    background-color: steelblue;
+    margin: 0.5em;
+    padding: 0.5em;
+    border-radius: 0.5em;
+    border: #000 thin solid;
+}
+
+.marcoTarjeta {
+    background-color: royalblue;
+    padding: 0.5em;
+    border-radius: 0.5em;
+}
+
+.marcoTarjeta img {
+    width: 100%;
+    height: 14em;
+    border-radius: 0.5em;
+
+}
+
+.textTarjeta {
+    background-color: royalblue;
+    padding: 1em;
+    border-radius: 0 0 .5em .5em;
+    margin: 0.2em 0 0 0;
+    text-align: center;
+}
+
+.textTarjeta h2 {
+font-size: 1.5em;
+}
