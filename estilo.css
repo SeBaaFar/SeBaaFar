@@ -1,0 +1,203 @@
+* {
+padding:0;
+margin:0;
+}
+
+body {
+    background: black;
+}
+
+.barraSuperior {
+    height: 5em;
+    padding: 1em 2em;
+}
+
+.primerafila {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.redes {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+
+.icono {
+    background-color: dodgerblue;
+    border-radius: 5px;
+    margin: .9em .5em;
+    height: 2.0 em;
+    padding: .6em .7em;
+}
+
+.whatsapp {
+    margin-left: 1.5em;
+}
+
+#celular {
+color: dodgerblue;
+font-family: 'Edu NSW ACT Foundation', cursive;
+font-weight: 700;
+font-size: 1.5em;
+margin-left: .4em;
+}
+
+.Exclusivos {
+    color:black;
+    font-family: 'Edu NSW ACT Foundation', cursive;
+    font-weight: 600;
+}
+#Exclusivos:active,#Exclusivos:link, #Exclusivos:visited {
+    color:black;
+    text-decoration: none;
+}
+.menu {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+
+.nombre {
+    font-family: 'Cinzel', serif;
+    font-size: 4em;
+    color: white;
+    position: relative;
+    top: -5.5em;
+}
+
+.cuerpo {
+    width: 100%;
+    min-height: 60em;
+    background-image: url("zapatos.jpg");
+    background-repeat:no-repeat;
+    display:flex;
+    flex-direction:column;
+}
+.menudesplegable {
+    width: 100%;
+    max-width: 600px;
+    margin: 5em auto;
+    padding: 1em 2em;
+}
+.botonmenu {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+#desplegable {
+    position: relative;
+    top: +80px;
+    visibility: hidden;
+    opacity: 0;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    transition: .5s;
+}
+#desplegar {
+    position: relative;
+    top: -9em;
+    transition: .3s;
+}
+#desplegar:hover {
+    -webkit-box-shadow:0px 0px 55px 13px rgba(30,143,255,0.9);
+    -moz-box-shadow: 0px 0px 55px 13px rgba(30,143,255,0.9);
+    box-shadow: 0px 0px 55px 13px rgba(30,143,255,0.9);
+}
+
+#contraer {
+    position: relative;
+    top: -13.5em;
+    visibility: hidden;
+    transition: .3s;
+}
+#contraer:hover {
+    -webkit-box-shadow:0px 0px 55px 13px rgba(30,143,255,0.9);
+    -moz-box-shadow: 0px 0px 55px 13px rgba(30,143,255,0.9);
+    box-shadow: 0px 0px 55px 13px rgba(30,143,255,0.9);
+}
+.opciones {
+    color:dodgerblue;
+    font-family: 'Edu NSW ACT Foundation', cursive;
+    font-weight: 600;
+    font-size: 1.0em;
+    padding: .2em;
+    transition: .4s;
+    border-radius: 5px;
+}
+.opciones:hover {
+    background-color:dodgerblue;
+    color: black;
+    -webkit-box-shadow:0px 0px 55px 13px rgba(30,143,255,0.9);
+    -moz-box-shadow: 0px 0px 55px 13px rgba(30,143,255,0.9);
+    box-shadow: 0px 0px 55px 13px rgba(30,143,255,0.9);
+}
+.divSlogan {
+    padding: 5em 0 0 8em;
+}
+.slogan {
+    font-family: 'Edu NSW ACT Foundation', cursive;
+    font-size: 5em;
+    color:snow;
+}
+.zapatos {
+    margin: 30em auto;
+    max-width: 1000px;
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+}
+#hombre {
+    width: 25em;
+    border-radius: 20px 0px 0px 0px;
+}
+#niños {
+width: 25em;
+margin: 0 0 0 0em;
+}
+#niños {
+    border-radius: 0px 20px 0px 0px;
+}
+#mujer {
+width: 25em;
+margin: 0 0 0 0em;
+}
+
+#mujer {
+    border-radius: 0px 0px 0px 20px;
+}
+#corbata {
+    width: 25em;
+    margin: 0 0 0 0em;
+}
+#corbata {
+    border-radius: 0 0 20px 0;
+}
+
+
+.footer {
+    background-color: black;
+    padding: 1em 1em;
+    display: flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.datos {
+    color: darkgray;
+    font-family: 'Edu NSW ACT Foundation', cursive;
+    font-size: .6em;
+}
+
+.copyright {
+    color:limegreen;
+    font-size: 1em;
+}
