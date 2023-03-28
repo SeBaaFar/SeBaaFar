@@ -1,2 +1,0 @@
-# SeBaaFar
-Trabajo practico
